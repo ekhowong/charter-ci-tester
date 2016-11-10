@@ -12,10 +12,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<mule.version>3.8.0</mule.version>
+		<mule.version>3.7.3</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 	<munit.version>1.2.0</munit.version>
-    <mule.munit.support.version>3.8.0</mule.munit.support.version>
+    <mule.munit.support.version>3.7.3</mule.munit.support.version>
     </properties>
 
 	<build>
@@ -232,16 +232,14 @@
         	<name>Maven Charter Group (tunnel)</name>
         	<url>http://localhost:9093/repository/maven-charter-group/</url>
         	<layout>default</layout>
-        </repository> -->
-		<distributionManagement> 
+        </repository> -->		
         <repository>
         	<id>mavan-charter-bss-group</id>
         	<name>Maven Charter BSS Group</name>
         	<!--<url>http://98.120.102.203:8081/repository/maven-charter-group/</url>-->
 		<url>http://127.0.0.1:8081/repository/maven-charter-bss-group/</url>
         	<layout>default</layout>
-        </repository>
-			</distributionManagement> 
+        </repository>			
     </repositories>
     <pluginRepositories>
         <pluginRepository>
