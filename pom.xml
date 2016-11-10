@@ -94,10 +94,11 @@
         <deploymentType>arm</deploymentType>	
         <username>V566187</username>
         <password>Ciber4pew</password>
-        <target>esbqapp06</target>
+        <target>esbqapp06</target>	    
         <!-- One of: server, serverGroup, cluster: -->
         <targetType>server</targetType>
         <environment>SF-QA</environment>
+	<businessGroup>Salesforce</businessGroup>
     </configuration>
     <executions>
         <execution>
