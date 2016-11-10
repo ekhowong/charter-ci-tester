@@ -233,6 +233,7 @@
         	<url>http://localhost:9093/repository/maven-charter-group/</url>
         	<layout>default</layout>
         </repository> -->
+		<distributionManagement> 
         <repository>
         	<id>mavan-charter-bss-group</id>
         	<name>Maven Charter BSS Group</name>
@@ -240,6 +241,7 @@
 		<url>http://127.0.0.1:8081/repository/maven-charter-bss-group/</url>
         	<layout>default</layout>
         </repository>
+			</distributionManagement> 
     </repositories>
     <pluginRepositories>
         <pluginRepository>
