@@ -94,7 +94,7 @@
         <deploymentType>arm</deploymentType>	
         <username>V566187-OSS</username>
         <password>Ciber4pew</password>
-	<businessGroup>OSS</businessGroup>
+	<businessGroup>Charter Communications\OSS</businessGroup>
         <target>oss-mulesoft-app01</target>	    
         <!-- One of: server, serverGroup, cluster: -->
         <targetType>server</targetType>
