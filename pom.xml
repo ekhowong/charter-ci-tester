@@ -92,13 +92,13 @@
     <version>2.1</version>
     <configuration>
         <deploymentType>arm</deploymentType>	
-        <username>V566187-OSS</username>
+        <username>V566187</username>
         <password>Ciber4pew</password>
-	<businessGroup>OSS</businessGroup>
-        <target>oss-mulesoft-app01</target>	    
+	<businessGroup>Salesforce</businessGroup>
+        <target>SF-QA-ESB-SERVERS</target>	    
         <!-- One of: server, serverGroup, cluster: -->
-        <targetType>server</targetType>
-        <environment>Production</environment>
+        <targetType>serverGroup</targetType>
+        <environment>SF-QA</environment>
     </configuration>
     <executions>
         <execution>
