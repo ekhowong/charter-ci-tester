@@ -201,16 +201,17 @@
             <url>http://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
-        <repository>
+        <!-- <repository>
         	<id>mavan-charter-group-tunnel</id>
         	<name>Maven Charter Group (tunnel)</name>
         	<url>http://localhost:9093/repository/maven-charter-group/</url>
         	<layout>default</layout>
-        </repository>
+        </repository> -->
         <repository>
-        	<id>mavan-charter-group</id>
-        	<name>Maven Charter Group</name>
-        	<url>http://98.120.102.203:8081/repository/maven-charter-group/</url>
+        	<id>mavan-charter-bss-group</id>
+        	<name>Maven Charter BSS Group</name>
+        	<!--<url>http://98.120.102.203:8081/repository/maven-charter-group/</url>-->
+		<url>http://127.0.0.1:8081/repository/maven-charter-bss-group/</url>
         	<layout>default</layout>
         </repository>
     </repositories>
