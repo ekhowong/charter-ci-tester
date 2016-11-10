@@ -98,7 +98,7 @@
         <target>oss-mulesoft-app01</target>	    
         <!-- One of: server, serverGroup, cluster: -->
         <targetType>server</targetType>
-        <environment>Development</environment>
+        <environment>Production</environment>
     </configuration>
     <executions>
         <execution>
